@@ -5,7 +5,7 @@ end
 end
 
 def summon_captain_planet(array)
-  summon_him = array.collect do|call| call.capitalize + "!"
+  array.collect do|call| call.capitalize + "!"
 end
 end
 
